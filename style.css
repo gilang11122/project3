@@ -1,0 +1,59 @@
+*{
+  margin: 0%;
+  position: 0px;
+}
+.navbar{
+  display: flex;
+  background-color: rgb(247, 3, 3);
+  color: rgb(20, 19, 19);
+  height: 80px;
+}
+.navbar .container{
+  background-color:(254, 252, 255);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .container ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+body{
+  background-color: aquamarine;
+}
+
+.kelas{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "Artikel-PPLG Artikel-PPLG Artikel-PPLG Artikel-PPLG"
+  "cucu WIWI WIWI JIAN "
+  "yanto yanto yanto yanto "
+  "lilis lilis arif arif";
+ 
+}
+.item1{
+  grid-area: Artikel PPLG;
+}
+.item2{
+  grid-area: DUDU;
+}
+.item3{
+  grid-area: WIWI;
+}
+.item4{
+  grid-area: JIAN;
+}
+.item5{
+  grid-area: yanto;
+}
+.item6{
+  grid-area: lilis;
+}
+.item7{
+  grid-area: arif;
+}
